@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/yellowshop/static/css/main.22e2d2fe.css",
+    "main.js": "/yellowshop/static/js/main.5f10807a.js",
+    "static/media/photoEdited.png": "/yellowshop/static/media/photoEdited.592667b9eb3edd249564.png",
+    "index.html": "/yellowshop/index.html",
+    "main.22e2d2fe.css.map": "/yellowshop/static/css/main.22e2d2fe.css.map",
+    "main.5f10807a.js.map": "/yellowshop/static/js/main.5f10807a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22e2d2fe.css",
+    "static/js/main.5f10807a.js"
+  ]
+}
