@@ -118,9 +118,13 @@ ul li {
   list-style-type: none;
   display: flex;
   align-items: center;
-  border-top: 1px solid var(--FOTTER-BG);
+  border-top: 1px solid var(--FOOTER-BG);
   font-size: 1rem;
   padding: 15px 0;
+}
+
+ul li:first-child {
+  border-top: none;
 }
 
 ul li img {
@@ -136,7 +140,7 @@ code {
 footer {
   width: 100%;
   background-color: var(--FOOTER-BG);
-  padding-top: 20px;
+  padding: 20px 40px;
 }
 .timer {
   width: 100%;
@@ -162,6 +166,44 @@ footer {
   font-size: 2rem;
 }
 
+.discount {
+  display: flex;
+  justify-content: space-between;
+  max-width: 290px;
+  margin: 20px auto;
+  font-size: 2rem;
+}
+
+.discount__oldPrice span {
+  font-size: 2rem;
+  text-decoration: line-through;
+}
+
+.discount__oldPrice p:first-child,
+.discount__newPrice p:first-child {
+  font-size: 0.8rem;
+}
+
+
+.discount__newPrice {
+  color: var(--BUTTON-BG);
+}
+
+button {
+  width: 100%;
+  background-color: var(--BUTTON-BG);
+  border: none;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
 
 /* || MEDIA Queries  */
 
