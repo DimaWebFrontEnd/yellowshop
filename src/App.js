@@ -3,8 +3,8 @@ import Product from "./Product";
 import ListItems from "./ListItems";
 import Footer from "./Footer";
 import { useState } from "react";
-import img from "./img/photoEdited.png"
-import Check from "./img/chekIcon.png"
+import img from "./img/photoEdited.png";
+import Check from "./img/chekIcon.png";
 
 
 function App() {

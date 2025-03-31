@@ -1,13 +1,16 @@
+import CountdownTImer from "./CountdownTImer"
+
 
 const Footer = () => {
+
+  
+
+
   return (
     <footer>
 
-      <section className="timer">
-        <div className="timer__time"><p><span>15</span><br /> годин</p></div>
-        <div className="timer__time"><p><span>23</span><br /> хвилин</p></div>
-        <div className="timer__time"><p><span>15</span><br /> сукунд</p></div>
-      </section>
+      {<CountdownTImer />}
+
       <section className="discount">
         <div className="discount__oldPrice">
           <p>ЗВИЧАЙНА ЦІНА:</p>
