@@ -218,6 +218,10 @@ button:hover {
   header {
     font-size: 0.7rem;
   }
+  .header__icons {
+    
+    padding-right: 5px;
+  }
   .header__icons img {
     padding-inline: 5px;
     width: 80%;
@@ -231,6 +235,15 @@ button:hover {
   }
   ul li img {
     padding: 0 10px;
+  }
+  footer {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .timer__time:nth-child(2) {
+    margin: 0 20px;
   }
 }
 
