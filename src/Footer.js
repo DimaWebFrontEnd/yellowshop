@@ -1,4 +1,4 @@
-import CountdownTImer from "./CountdownTImer"
+import CountdownTimer from "./CountdownTimer"
 
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
 
-      {<CountdownTImer />}
+      {<CountdownTimer />}
 
       <section className="discount">
         <div className="discount__oldPrice">
