@@ -3,6 +3,7 @@ import {useState, useEffect} from "react";
 const CountdownTimer = () => {
    const currentYear = new Date().getFullYear();
    const currentDate = new Date().getDate();
+   const currentMonth = new Date().getMonth();
    const eventDate = currentDate + 1;
 
    const [seconds, setSeconds] = useState("");
@@ -10,6 +11,7 @@ const CountdownTimer = () => {
    const [hours, setHours] = useState("");
 
    
+
    const countdownInterval = setInterval(() => {
       const now = new Date().getTime();
       const targetDate = new Date(`May ${eventDate}, ${currentYear} 23:59:59`).getTime();
@@ -24,7 +26,6 @@ const CountdownTimer = () => {
       setMinutes(minutes);
       setHours(hours);
    }, 1000)
-
 
 
   return (
